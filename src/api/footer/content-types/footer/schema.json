@@ -1,0 +1,87 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "readytocook": {
+      "type": "string",
+      "required": true
+    },
+    "newsletter": {
+      "type": "string",
+      "required": true
+    },
+    "signupbtn": {
+      "type": "string"
+    },
+    "friend": {
+      "type": "string",
+      "required": true
+    },
+    "food": {
+      "type": "string"
+    },
+    "health": {
+      "type": "string"
+    },
+    "tech": {
+      "type": "string"
+    },
+    "quicknews": {
+      "type": "string"
+    },
+    "gym": {
+      "type": "string"
+    },
+    "aboutus": {
+      "type": "string"
+    },
+    "terms": {
+      "type": "string"
+    },
+    "privacypolicy": {
+      "type": "string"
+    },
+    "guideliness": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "euprivacy": {
+      "type": "string"
+    },
+    "ads": {
+      "type": "string"
+    },
+    "careers": {
+      "type": "string"
+    },
+    "feedback": {
+      "type": "string"
+    },
+    "powered": {
+      "type": "string"
+    },
+    "codeband": {
+      "type": "string"
+    }
+  }
+}
