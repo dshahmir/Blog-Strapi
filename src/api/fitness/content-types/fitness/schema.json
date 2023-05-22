@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fitnesses",
+  "info": {
+    "singularName": "fitness",
+    "pluralName": "fitnesses",
+    "displayName": "Fitness"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
