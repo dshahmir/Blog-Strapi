@@ -1,0 +1,65 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "table": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "text"
+    },
+    "getrecipe": {
+      "type": "string"
+    },
+    "bgimage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "helping": {
+      "type": "string"
+    },
+    "million": {
+      "type": "string"
+    },
+    "homecooks": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "over": {
+      "type": "string"
+    },
+    "tested": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "threeth": {
+      "type": "richtext"
+    },
+    "heading2": {
+      "type": "richtext"
+    }
+  }
+}
